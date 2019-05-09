@@ -14,7 +14,7 @@ COPY tomcat.sh /opt
 
 ADD  context.xml /opt
 
-COPY tomcat.xml /opt
+COPY tomcat-users.xml /opt
 
 COPY *.war /opt/apache-tomcat/webapps/.
 
