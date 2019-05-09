@@ -21,7 +21,7 @@ cp tomcat-users.xml /opt/apache-tomcat/conf
 mv /opt/apache-tomcat/webapps/manager/META-INF/context.xml  /opt/apache-tomcat/webapps/manager/META-INF/context.xml.rog
 
 cp context.xml /opt/apache-tomcat/webapps/manager/META-INF
-cd /opt/apache-tomcat/bin/
+#cd /opt/apache-tomcat/bin/
 
-chmod +x * sh
-./startup.sh
+#chmod +x * sh
+#./startup.sh
