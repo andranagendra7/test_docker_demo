@@ -16,9 +16,9 @@ ADD  context.xml /opt
 
 COPY tomcat-users.xml /opt
 
-COPY *.war /opt/apache-tomcat/webapps/.
-
 RUN ./tomcat.sh
+
+COPY *.war /opt/apache-tomcat/webapps
 
 ENTRYPOINT '/bin/bash'
 
